@@ -1,0 +1,83 @@
+<!DOCTYPE html>  <!-- Tipo de documento -->
+<html lang="es">
+
+<head>
+    <title>titulo Pagina</title> <!-- titulo en pestaña -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Este es un documento HTML5">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="Css/hoja_estilos.css"> <!-- enlace Css -->
+</head>
+
+<body>
+    <header id="cabecera_logo">
+        <div>
+            <h1><img src="imagenes/PC Gamers MX.gif"> Titulo pagina</h1>
+        </div>
+    </header>
+    <nav id="menu_principal">
+        <div>
+            <ul>        <!-- menu en barra -->
+                <li><a href="index.html">Pagina Principal</a></li>
+                <li><a href="catalogo.html">Catalogo de Productos</a></li>
+                <li><a href="About.html">¿Quienes Somos?</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="login.html">Iniciar sesión</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div>
+            <section id="articulos_principales">
+                <article>
+                    <h1>titulo articulo</h1>
+                    <time datetime="2021-02-17" pubdate>        <!-- fecha articulo -->
+                        <div class="numero_dia">17</div>
+                        <div class="nombre_dia">Miercoles</div>
+                    </time>
+                    <p> adelanto del articulo. </p>
+                    <a href="geforce_nota.html">Leer Mas...</a> <!-- vinculo del articulo -->
+                    <figure> <img src="imagenes/imagen_articulo"></figure>
+                </article>
+            </section>
+            <aside id="columna_redes">  <!-- aside de redes sociales -->
+                <h1>Redes Sociales</h1>
+                <br>
+                <p>da un click sobre la red donde deseas Contactarnos</p>
+                <br>
+                <p id="facebook"><a href="https://www.facebook.com/">
+                        <img src="imagenes/logo_facebook.png"></a>
+                    Facebook</p>
+                <br>
+                <p id="instagram"><a href="https://www.Instagram.com/">
+                        <img src="imagenes/logo_instagram.png"></a>
+                    Instagram</p>
+                <br>
+                <p id="whats"><a href="https://wa.link/ewxdci">
+                        <img src="imagenes/logo_WA.png"></a>
+                    Whats App</p>
+            </aside>
+            <div class="recuperar"></div>
+        </div>
+    </main>
+    <footer id="pie_logo">
+        <div>
+            <section class="seccion_pie">
+                <h1>Sitio Web</h1>
+                <p><a href="index.html">Principal</a></p>
+                <p><a href="videos.html">Videos</a></p>
+            </section>
+            <section class="seccion_pie">
+                <h1>Ayuda</h1>
+                <p><a href="contacto.html">Contacto y Ubicacion</a></p>
+            </section>
+            <section class="seccion_pie">
+                <address>Cdmx, México</address>
+                <small>&copy; Derechos Reservados 2022 David_Diaz//Tigerskin </small>
+            </section>
+            <div class="recuperar"></div>
+        </div>
+    </footer>
+</body>
+
+</html>

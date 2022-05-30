@@ -1,0 +1,81 @@
+<!DOCTYPE html>  <!-- Tipo de documento -->
+<html lang="es">
+
+<head>
+    <title>Formulario</title> <!-- titulo en pestaña -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Este es un documento HTML5">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="Css/hoja_estilos.css"> <!-- enlace Css -->
+</head>
+
+<body>
+    <header id="cabecera_logo">
+        <div>
+            <h1><img src=""> Titulo Prron</h1>
+        </div>
+    </header>
+    <nav id="menu_principal">
+    </nav>
+    <main>
+        <div>
+            <section id="articulos_principales">
+                <h1> ESTE ES MI PRIMER FORM </h1><br>
+                <h3>Diaz Pachuca David</h3><br>
+                <h3> <B> Procesando Datos en PHP </h3> <br><br>
+                    <form action="res_form.php" method="post">
+                        <p><b>
+                            Nombre: <input type="text" name="Nombre" required/><br><br>
+                            Apellido Paterno:  <input type="text" name="APaterno" required/><br><br>
+                            Apellido Materno:  <input type="text" name="AMaterno" required/><br><br>
+                            Genero:
+                                <input type= "radio" name="Sexo"  value="Masculino">Masculino
+                                <input type= "radio" name="Sexo" value="Femenino"> Femenino
+                                <input type= "radio" name="Sexo" value="Quimera creo (?"> Quimera
+                                <input type= "radio" name="Sexo" value="pony unica y detergente"> pony espacial<br><br>
+
+                            Fecha de Nacimiento: 
+                                <input type="date" name="Calendario" value="2000-01-01" /><br><br>
+                            Hobbies: 
+                                <input type="checkbox" id="Musica" name="Hobbie" value="Musica"> Musica
+                                <input type="checkbox" id="Deporte" name="Hobbie" value="Deporte"> Deporte
+                                <input type="checkbox" id="Tecnologia" name="Hobbie" value="Tecnologia"> Tecnologia
+                                <input type="checkbox" id="Coktail" name="Hobbie" value="Coktail"> Coktail
+                                <input type="checkbox" id="Pole Dance" name="Hobbie" value="Pole Dance"> PoleDance <br><br>
+                            Carrera:
+                            <select name="Carrera" id="Carrera">
+                                <option value="Informatica">Informatica</option>
+                                <option value="Contabilidad">Contabilidad</option>
+                                <option value="Tecnologia Ambiental">Tecnologia Ambiental</option>
+                            </select><br><br>
+                                <input type="file" name="adjunto" id="archivo-adjunto"><br><br>
+                            Comentarios para mejorar el sitio: <br> <br>
+                                <textarea name="comment" rows="5" cols="40"></textarea><br><br>
+                            <input type="submit" value="Enviar"><br><br>
+                            <input type="reset" value="Borrar">
+
+                        </p></b>
+                    </form>
+            </section>
+            
+            <div class="recuperar"></div>
+        </div>
+    </main>
+    <footer id="pie_logo">
+        <div>
+            <section class="seccion_pie">
+                
+            </section>
+            <section class="seccion_pie">
+                
+            </section>
+            <section class="seccion_pie">
+              
+                <small>&copy; Derechos Reservados 2022 Tigerskin </small>
+            </section>
+            <div class="recuperar"></div>
+        </div>
+    </footer>
+</body>
+
+</html>
